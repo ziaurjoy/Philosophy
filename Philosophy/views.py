@@ -13,3 +13,5 @@ def home(request):
         'posts': posts
     }
     return render(request, 'fontend/home.html', context)
+
+
